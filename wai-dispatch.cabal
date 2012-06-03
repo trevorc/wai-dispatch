@@ -1,0 +1,15 @@
+Name: wai-dispatch
+Version: 0.1
+License: BSD3
+License-File: COPYING
+Build-Type: Simple
+Cabal-Version: >=1.8
+
+Source-Repository head
+  type:     git
+  location: https://github.com/trevorc/wai-dispatch
+
+Library
+  Build-Depends: base, wai
+  Exposed-Modules: Network.Wai.Middleware.Dispatch
+  GHC-Options: -Wall -O2
